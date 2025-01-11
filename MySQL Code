@@ -1,0 +1,14 @@
+/*
+Queries to create a smaller version of IMDB database 
+For SQL Assignment from UpGrad. Created by Shreyas M
+*/
+/* Creating and using the database */ 
+DROP DATABASE IF EXISTS imdb;
+
+CREATE DATABASE imdb;
+
+USE imdb;
+
+/* Creating the structure of various tables in the database */
+DROP TABLE IF EXISTS movie;
+CREATE TABLE movie
